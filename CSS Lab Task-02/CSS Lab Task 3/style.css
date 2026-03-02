@@ -4,9 +4,9 @@ body {
     padding: 20px;
 }
 
-/* ============================= */
+
 /* Part A: Box Model */
-/* ============================= */
+
 
 .box {
     width: 200px;
@@ -38,9 +38,9 @@ body {
     margin: 40px;
 }
 
-/* ============================= */
+
 /* Part C: Display Properties */
-/* ============================= */
+
 
 /* Block */
 .block-example {
@@ -71,9 +71,9 @@ body {
     display: none;
 }
 
-/* ============================= */
+
 /* Part D: Visibility vs Display */
-/* ============================= */
+
 
 /* Visibility Hidden */
 .visibility-hidden {
