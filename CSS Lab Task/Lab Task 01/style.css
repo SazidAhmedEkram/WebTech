@@ -1,0 +1,21 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* External CSS */
+
+/* ID Selector */
+#mainTitle {
+    color: green;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+/* Element Selector */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,83 @@
+/* ============================= */
+/* Part A: CSS Units */
+/* ============================= */
+
+/* Group Selector */
+h1, h2 {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Absolute Units */
+h1 {
+    font-size: 32px; /* px */
+}
+
+h2 {
+    font-size: 1cm; /* cm */
+}
+
+/* Relative Units */
+.container {
+    width: 80%; /* % */
+    margin: 20px auto;
+}
+
+.container p {
+    font-size: 1.5em; /* em */
+    color: darkgreen;
+}
+
+/* rem unit */
+.box {
+    width: 50vw; /* vw */
+    height: 20vh; /* vh */
+    background-color: lightgray;
+    font-size: 2rem; /* rem */
+    margin: 2em; /* em */
+    padding: 10px; /* px */
+}
+
+/* ============================= */
+/* Part B: Selector Types */
+/* ============================= */
+
+/* Descendant Selector */
+div p {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* ============================= */
+/* Part C: Pseudo Classes */
+/* ============================= */
+
+/* Hover */
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Active */
+button:active {
+    background-color: darkblue;
+}
+
+/* Focus */
+input[type="text"]:focus {
+    border: 2px solid green;
+    outline: none;
+}
+
+/* Link Hover */
+a:hover {
+    color: red;
+}
