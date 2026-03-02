@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Practice</title>
+</head>
+<body>
+
+<h2>It's me Sazid</h2>
+
+<script>
+
+// 1. Basic Console Output
+console.log("Hello World!");
+
+
+// 2. Variables Example
+
+console.log("---- Variables Example ----");
+
+let myName = "Sazid";
+let myAge = 21;
+
+console.log("My name is " + myName + " and I am " + myAge + " years old.");
+
+
+// 3. Simple Arithmetic
+console.log("---- Simple Arithmetic ----");
+
+let a = 5;
+let b = 21;
+
+let total = a + b;
+console.log("Sum of " + a + " and " + b + " = " + total);
+
+
+
+// 4. Odd or Even Check
+
+console.log("---- Odd or Even Check ----");
+
+let checkNumber = 7;
+
+if (checkNumber % 2 === 0) {
+    console.log(checkNumber + " is Even");
+} else {
+    console.log(checkNumber + " is Odd");
+}
+console.log("------------------------------");
+
+
+// 5. Celsius to Fahrenheit
+
+console.log("---- Temperature Conversion ----");
+
+let c = 25;
+let f = (c * 9/5) + 32;
+
+console.log(c + "°C = " + f + "°F");
+
+// 6. Simple Calculator
+
+console.log("---- Simple Calculator ----");
+
+let x = 10;
+let y = 5;
+
+console.log("Addition: " + (x + y));
+console.log("Subtraction: " + (x - y));
+console.log("Multiplication: " + (x * y));
+console.log("Division: " + (x / y));
+
+
+
+// 7. Largest of Three Numbers
+console.log("---- Largest Number ----");
+
+let n1 = 22;
+let n2 = 15;
+let n3 = 31;
+
+let largest = n1;
+
+if (n2 > largest) largest = n2;
+if (n3 > largest) largest = n3;
+
+console.log("Largest number is: " + largest);
+
+
+// 8. Loop from 1 to 10
+
+console.log("---- Numbers from 1 to 10 ----");
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+// 9. Factorial Using Loop
+
+console.log("---- Factorial Program ----");
+
+let number = 5;
+let factorial = 1;
+
+for (let i = 1; i <= number; i++) {
+    factorial *= i;
+}
+
+console.log("Factorial of " + number + " = " + factorial);
+
+// 10. Reverse a String
+
+console.log("---- Reverse String ----");
+
+let text = "JavaScript";
+let reversed = "";
+
+for (let i = text.length - 1; i >= 0; i--) {
+    reversed += text[i];
+}
+
+console.log("Original: " + text);
+console.log("Reversed: " + reversed);
+
+// 11. Sum of Array Elements
+console.log("---- Sum of Array ----");
+
+let numbers = [1, 2, 3, 4, 5];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+
+console.log("Array: " + numbers);
+console.log("Total Sum: " + sum);
+
+// 12. Prime Number Check
+console.log("---- Prime Number Check ----");
+
+let numToCheck = 28;
+let prime = true;
+
+if (numToCheck <= 1) {
+    prime = false;
+}
+
+for (let i = 2; i < numToCheck; i++) {
+    if (numToCheck % i === 0) {
+        prime = false;
+        break;
+    }
+}
+
+if (prime) {
+    console.log(numToCheck + " is a Prime Number");
+} else {
+    console.log(numToCheck + " is NOT a Prime Number");
+}
+console.log("------------------------------");
+
+
+// 13. Array Manipulation
+console.log("---- Array Manipulation ----");
+
+let arr = [1, 2, 3, 4, 5];
+
+console.log("Original Array: " + arr);
+
+arr.push(6);
+console.log("After Push: " + arr);
+
+arr.shift();
+console.log("After Shift: " + arr);
+console.log("------------------------------");
+
+
+
+// 14. Simple Object Example
+
+console.log("---- Object Example ----");
+
+let person = {
+    name: "Sazid",
+    age: 21
+};
+
+console.log("Name: " + person.name);
+console.log("Age: " + person.age);
+console.log("------------------------------");
+
+</script>
+
+</body>
+</html>

@@ -71,7 +71,9 @@ button:active {
     background-color: darkblue;
 }
 
-/* Focus */
+/* 
+Focus 
+*/
 input[type="text"]:focus {
     border: 2px solid green;
     outline: none;
